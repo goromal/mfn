@@ -48,4 +48,3 @@ install(EXPORT ${PROJ_NAME}Targets DESTINATION lib/cmake/${PROJ_NAME})
 install(FILES "${PROJECT_BINARY_DIR}/${PROJ_NAME}ConfigVersion.cmake"
               "${PROJECT_BINARY_DIR}/${PROJ_NAME}Config.cmake"
         DESTINATION lib/cmake/${PROJ_NAME})
-install(DIRECTORY ${PROJECT_SOURCE_DIR}/include/ DESTINATION include)
